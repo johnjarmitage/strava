@@ -1,0 +1,28 @@
+name: cycling
+channels:
+  - conda-forge
+dependencies:
+  # the basics
+  - python>=3.8
+  - matplotlib
+  - scipy
+  - pandas
+  - geopandas
+  - scikit-learn
+  # notebook requires
+  - jupyterlab
+  - voila
+  - rise
+  - ipywidgets
+  - bokeh
+  - nodejs
+  - ipympl
+  - jupyter_contrib_nbextensions
+  # mapping
+  - contextily
+  # pip stuff
+  - pip
+  - pip:
+    - seaborn
+    - gpxpy
+prefix: /srv/conda
